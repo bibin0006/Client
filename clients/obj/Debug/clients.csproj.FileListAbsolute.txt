@@ -1,0 +1,14 @@
+c:\users\xuserx\documents\visual studio 2010\Projects\clients\clients\bin\clients.dll
+c:\users\xuserx\documents\visual studio 2010\Projects\clients\clients\bin\clients.pdb
+c:\users\xuserx\documents\visual studio 2010\Projects\clients\clients\obj\Debug\ResolveAssemblyReference.cache
+c:\users\xuserx\documents\visual studio 2010\Projects\clients\clients\obj\Debug\clients.dll
+c:\users\xuserx\documents\visual studio 2010\Projects\clients\clients\obj\Debug\clients.pdb
+C:\Users\XuserX\documents\visual studio 2010\Projects\clients\clients\bin\Newtonsoft.Json.dll
+C:\Users\XuserX\documents\visual studio 2010\Projects\clients\clients\bin\Newtonsoft.Json.xml
+C:\Users\XuserX\Desktop\clients\clients\bin\clients.dll
+C:\Users\XuserX\Desktop\clients\clients\bin\clients.pdb
+C:\Users\XuserX\Desktop\clients\clients\bin\Newtonsoft.Json.dll
+C:\Users\XuserX\Desktop\clients\clients\bin\Newtonsoft.Json.xml
+C:\Users\XuserX\Desktop\clients\clients\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\XuserX\Desktop\clients\clients\obj\Debug\clients.dll
+C:\Users\XuserX\Desktop\clients\clients\obj\Debug\clients.pdb
