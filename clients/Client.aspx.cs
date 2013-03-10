@@ -30,10 +30,10 @@ namespace clients
 
             var jss = new JavaScriptSerializer();
             var historial_medico = jss.Deserialize<HistorialMedicoViewModel>(result);
-            var enfermedades = historial_medico.AntecedentesEnfermedades.Select( VARIABLE => VARIABLE.Descripcion ).ToList( );
+            var enfermedades = historial_medico.AntecedentesEnfermedades.Select(VARIABLE => VARIABLE.Descripcion).ToList();
             ListBox1.DataSource = enfermedades;
-            ListBox1.DataBind(  );
-           // historial_medico.AntecedentesEnfermedades.ForEach( enfermedad => Label1.Text += " " + enfermedad.Descripcion );
+            ListBox1.DataBind();
+            historial_medico.AntecedentesEnfermedades.ForEach(enfermedad => Label1.Text += " " + enfermedad.Descripcion);
             Label1.Text = result;
         }
     }
