@@ -37,14 +37,14 @@ namespace clients
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            const string ipadd = "10.0.0.11";
+            
             var url = "/api/personas/" + persona.idPersona
                         + "?Email=" + persona.Email
                         + "&TelefonoResidencial=" + persona.TelefonoResidencial
                         + "&TelefonoCelular=" + persona.TelefonoCelular
                         + "&Direccion=" + persona.Direccion;
             var urlencrypted = new SecureEncrypt().Encrypt(url, "password");
-            var path = "http://" + ipadd + ":4001/api/user?url=" + urlencrypted;
+            var path = "http://" + request.ipadd() + ":4001/api/user?url=" + urlencrypted;
             var result = request.Using(WebRequestMethods.Http.Put, path);
         }
     }

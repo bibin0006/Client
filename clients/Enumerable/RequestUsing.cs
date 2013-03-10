@@ -7,6 +7,12 @@ namespace clients.Enumerable
 {
     public class Request
     {
+        
+        public  string ipadd () {
+            const string ip = "127.0.0.1";
+            return ip;
+        }
+
         public string Using(string method, string path)
         {
             string result;

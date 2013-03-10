@@ -167,6 +167,9 @@
     <Compile Include="Doctor\DoctorMain.aspx.designer.cs">
       <DependentUpon>DoctorMain.aspx</DependentUpon>
     </Compile>
+    <Compile Include="views\AlergiaViewModel.cs" />
+    <Compile Include="views\DescripcionViewModel.cs" />
+    <Compile Include="views\HistorialMedicoViewModel.cs" />
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

@@ -1,47 +1,37 @@
 ﻿<RecentFiles>
   <RecentFiles>
-    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/d:Styles/f:Site.css" caret="430" fromTop="25" />
-    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/d:Enumerable/f:Personas.cs" caret="1351" fromTop="25" />
-    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/d:Enumerable/f:Model.cs" caret="0" fromTop="0" />
-    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/d:Enumerable/f:RequestUsing.cs" caret="1031" fromTop="34" />
-    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/d:views/f:PersonasEditCreateModel.cs" caret="0" fromTop="0" />
     <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:DeleteMedico.aspx.cs" caret="0" fromTop="0" />
     <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:Default.aspx.cs" caret="394" fromTop="13" />
-    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:EditarPerfil.aspx.cs" caret="15" fromTop="0" />
     <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/d:design/f:Block.ascx" caret="0" fromTop="0" />
     <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:WebForm2.aspx.cs" caret="1761" fromTop="19" />
     <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:Default.aspx.designer.cs" caret="0" fromTop="0" />
     <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:DeleteMedico.aspx" caret="0" fromTop="0" />
     <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:Site.Master" caret="0" fromTop="0" />
     <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:WebForm2.aspx.designer.cs" caret="1089" fromTop="19" />
-    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:EditarPerfil.aspx" caret="0" fromTop="0" />
     <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:style.css" caret="0" fromTop="0" />
     <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:Home.aspx.designer.cs" caret="2716" fromTop="6" />
     <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/d:design/f:MasterPage.master" caret="0" fromTop="0" />
     <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:WebForm2.aspx" caret="0" fromTop="0" />
     <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/d:Doctor/f:DoctorMain.aspx.designer.cs" caret="1108" fromTop="25" />
-    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:Client.aspx" caret="0" fromTop="0" />
     <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:Default.aspx" caret="0" fromTop="0" />
-    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:Home.aspx" caret="2443" fromTop="12" />
     <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:Home.aspx.cs" caret="1234" fromTop="12" />
     <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/d:Doctor/f:DoctorMain.aspx" caret="0" fromTop="0" />
     <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/d:Doctor/f:DoctorMain.aspx.cs" caret="435" fromTop="11" />
+    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:Web.config" caret="341" fromTop="0" />
+    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/d:Enumerable/f:Model.cs" caret="0" fromTop="0" />
+    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/d:views/f:AlergiaViewModel.cs" caret="0" fromTop="0" />
+    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/d:views/f:DescripcionViewModel.cs" caret="0" fromTop="0" />
+    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/d:views/f:PersonasEditCreateModel.cs" caret="0" fromTop="0" />
+    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:EditarPerfil.aspx" caret="0" fromTop="0" />
+    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:Home.aspx" caret="0" fromTop="0" />
+    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/d:Enumerable/f:Personas.cs" caret="227" fromTop="0" />
+    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/d:views/f:HistorialMedicoViewModel.cs" caret="412" fromTop="12" />
+    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/d:Enumerable/f:RequestUsing.cs" caret="199" fromTop="11" />
+    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:Client.aspx.cs" caret="930" fromTop="30" />
+    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:Client.aspx" caret="0" fromTop="0" />
+    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:EditarPerfil.aspx.cs" caret="986" fromTop="10" />
   </RecentFiles>
   <RecentEdits>
-    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:WebForm2.aspx.cs" caret="1494" fromTop="8" />
-    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:WebForm2.aspx.cs" caret="1724" fromTop="19" />
-    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:WebForm2.aspx.designer.cs" caret="2737" fromTop="0" />
-    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:WebForm2.aspx.designer.cs" caret="2737" fromTop="24" />
-    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/d:design/f:MasterPage.master" caret="0" fromTop="0" />
-    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/d:design/f:Block.ascx" caret="0" fromTop="0" />
-    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:WebForm2.aspx.cs" caret="2580" fromTop="19" />
-    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:WebForm2.aspx.designer.cs" caret="1089" fromTop="9" />
-    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:WebForm2.aspx" caret="0" fromTop="0" />
-    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:Home.aspx" caret="0" fromTop="0" />
-    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:Home.aspx" caret="2443" fromTop="12" />
-    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:Home.aspx.designer.cs" caret="2728" fromTop="10" />
-    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:Home.aspx.cs" caret="944" fromTop="6" />
-    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:Home.aspx.designer.cs" caret="1085" fromTop="23" />
     <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:Home.aspx.designer.cs" caret="2716" fromTop="6" />
     <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/d:Doctor/f:DoctorMain.aspx" caret="0" fromTop="0" />
     <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:Home.aspx.cs" caret="1410" fromTop="12" />
@@ -58,5 +48,19 @@
     <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/d:Doctor/f:DoctorMain.aspx.designer.cs" caret="1098" fromTop="21" />
     <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/d:Doctor/f:DoctorMain.aspx.cs" caret="542" fromTop="16" />
     <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/d:Doctor/f:DoctorMain.aspx.cs" caret="435" fromTop="11" />
+    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/d:Enumerable/f:Personas.cs" caret="0" fromTop="0" />
+    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:Client.aspx.cs" caret="555" fromTop="13" />
+    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:Client.aspx.cs" caret="1232" fromTop="13" />
+    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:Client.aspx.cs" caret="154" fromTop="3" />
+    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:Client.aspx.cs" caret="500" fromTop="9" />
+    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:Client.aspx.cs" caret="1246" fromTop="24" />
+    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:Client.aspx.cs" caret="354" fromTop="8" />
+    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:Client.aspx.cs" caret="1194" fromTop="14" />
+    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:Client.aspx.cs" caret="1392" fromTop="14" />
+    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/d:Enumerable/f:RequestUsing.cs" caret="211" fromTop="11" />
+    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:Client.aspx.cs" caret="762" fromTop="5" />
+    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:EditarPerfil.aspx.cs" caret="1825" fromTop="6" />
+    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:EditarPerfil.aspx.cs" caret="2284" fromTop="13" />
+    <File id="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668/f:EditarPerfil.aspx.cs" caret="1149" fromTop="15" />
   </RecentEdits>
 </RecentFiles>

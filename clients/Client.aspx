@@ -21,6 +21,7 @@
     </p>
     <asp:Panel ID="Panel1" runat="server" CssClass="style2" Height="1082px" 
         ScrollBars="Auto" Width="914px">
+        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
         <br />
         Ultimas Consultas<br />
         <asp:ListBox ID="ListBox1" runat="server" CssClass="style3" Height="129px" 

@@ -12,3 +12,10 @@ C:\Users\XuserX\Desktop\clients\clients\bin\Newtonsoft.Json.xml
 C:\Users\XuserX\Desktop\clients\clients\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\XuserX\Desktop\clients\clients\obj\Debug\clients.dll
 C:\Users\XuserX\Desktop\clients\clients\obj\Debug\clients.pdb
+C:\Users\XuserX\Desktop\Client\clients\bin\clients.dll
+C:\Users\XuserX\Desktop\Client\clients\bin\clients.pdb
+C:\Users\XuserX\Desktop\Client\clients\bin\Newtonsoft.Json.dll
+C:\Users\XuserX\Desktop\Client\clients\bin\Newtonsoft.Json.xml
+C:\Users\XuserX\Desktop\Client\clients\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\XuserX\Desktop\Client\clients\obj\Debug\clients.dll
+C:\Users\XuserX\Desktop\Client\clients\obj\Debug\clients.pdb
