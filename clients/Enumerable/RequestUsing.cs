@@ -9,7 +9,7 @@ namespace clients.Enumerable
     {
         
         public  string ipadd () {
-            const string ip = "ec2-23-23-68-3.compute-1.amazonaws.com";
+            const string ip = "54.225.234.58";
             return ip;
         }
 
