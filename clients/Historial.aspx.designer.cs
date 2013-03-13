@@ -10,7 +10,7 @@
 namespace clients {
     
     
-    public partial class WebForm2 {
+    public partial class Historial {
         
         /// <summary>
         /// DefaultHeader control.
@@ -31,48 +31,57 @@ namespace clients {
         //protected global::Menu DefaultMenuContent;
         
         /// <summary>
-        /// email_edit control.
+        /// ListBox1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox email_edit;
+        protected global::System.Web.UI.WebControls.ListBox ListBox1;
         
         /// <summary>
-        /// tel_edit control.
+        /// ListBox2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tel_edit;
+        protected global::System.Web.UI.WebControls.ListBox ListBox2;
         
         /// <summary>
-        /// cel_edit control.
+        /// ListBox3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox cel_edit;
+        protected global::System.Web.UI.WebControls.ListBox ListBox3;
         
         /// <summary>
-        /// dir_edit control.
+        /// ListBox4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox dir_edit;
+        protected global::System.Web.UI.WebControls.ListBox ListBox4;
         
         /// <summary>
-        /// Button1 control.
+        /// ListBox5 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.ListBox ListBox5;
+        
+        /// <summary>
+        /// DefaultSidebar1Content control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        //protected global::Sidebar1 DefaultSidebar1Content;
     }
 }

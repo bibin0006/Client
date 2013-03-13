@@ -10,69 +10,51 @@
 namespace clients {
     
     
-    public partial class Home {
+    public partial class EditarPerfil {
         
         /// <summary>
-        /// DefaultHeader control.
+        /// email_edit control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        //protected global::DefaultHeader DefaultHeader;
-        
-        ///// <summary>
-        ///// DefaultMenuContent control.
-        ///// </summary>
-        ///// <remarks>
-        ///// Auto-generated field.
-        ///// To modify move field declaration from designer file to code-behind file.
-        ///// </remarks>
-        //protected global::Menu DefaultMenuContent;
+        protected global::System.Web.UI.WebControls.TextBox email_edit;
         
         /// <summary>
-        /// txtuser control.
+        /// tel_edit control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtuser;
+        protected global::System.Web.UI.WebControls.TextBox tel_edit;
         
         /// <summary>
-        /// txtpass control.
+        /// cel_edit control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtpass;
+        protected global::System.Web.UI.WebControls.TextBox cel_edit;
         
         /// <summary>
-        /// btnLogin control.
+        /// dir_edit control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnLogin;
+        protected global::System.Web.UI.WebControls.TextBox dir_edit;
         
         /// <summary>
-        /// Label1 control.
+        /// Button1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
-        
-        /// <summary>
-        /// DefaultSidebar1Content control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        ///// </remarks>
-        //protected global::Sidebar1 DefaultSidebar1Content;
+        protected global::System.Web.UI.WebControls.Button Button1;
     }
 }

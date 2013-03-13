@@ -23,18 +23,18 @@ namespace clients
         public void LoadData()
         {
             
-            var url = "/api/personas/GetHistorial?id=" + id;
-            var urlencrypted = new SecureEncrypt().Encrypt(url, "password");
-            var path = "http://" + request.ipadd() + ":4001/api/user?url=" + urlencrypted;
-            var result = request.Using(WebRequestMethods.Http.Get, path);
+            //var url = "/api/personas/GetHistorial?id=" + id;
+            //var urlencrypted = new SecureEncrypt().Encrypt(url, "password");
+            //var path = "http://" + request.ipadd() + ":4001/api/user?url=" + urlencrypted;
+            //var result = request.Using(WebRequestMethods.Http.Get, path);
 
-            var jss = new JavaScriptSerializer();
-            var historial_medico = jss.Deserialize<HistorialMedicoViewModel>(result);
-            var enfermedades = historial_medico.AntecedentesEnfermedades.Select(VARIABLE => VARIABLE.Descripcion).ToList();
-            ListBox1.DataSource = enfermedades;
-            ListBox1.DataBind();
-            historial_medico.AntecedentesEnfermedades.ForEach(enfermedad => Label1.Text += " " + enfermedad.Descripcion);
-            Label1.Text = result;
+            //var jss = new JavaScriptSerializer();
+            //var historial_medico = jss.Deserialize<HistorialMedicoViewModel>(result);
+            //var enfermedades = historial_medico.AntecedentesEnfermedades.Select(VARIABLE => VARIABLE.Descripcion).ToList();
+            //ListBox1.DataSource = enfermedades;
+            //ListBox1.DataBind();
+            //historial_medico.AntecedentesEnfermedades.ForEach(enfermedad => Label1.Text += " " + enfermedad.Descripcion);
+            //Label1.Text = result;
         }
     }
 }

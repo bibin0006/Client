@@ -1,7 +1,7 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/design/MasterPage.master" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="clients.Home" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/design/MasterPage.master" AutoEventWireup="true" CodeBehind="Historial.aspx.cs" Inherits="clients.Historial" %>
 <%@ Register src="DefaultHeader.ascx" tagname="DefaultHeader" tagprefix="art" %>
 <%@ Register src="DefaultMenu.ascx" tagname="DefaultMenu" tagprefix="art" %>
-<%@ Register TagPrefix="art" TagName="DefaultSidebar1" Src="~/DefaultSidebar1.ascx" %>
+<%@ Register src="DefaultSidebar1.ascx" tagname="DefaultSidebar1" tagprefix="art" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="TitleContentPlaceHolder" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ScriptIncludePlaceHolder" runat="server">
@@ -19,53 +19,48 @@
     <p>
     </p>
     <p>
+        Historial de enfermedades&nbsp;&nbsp; Antecedentes alérgicos
     </p>
     <p>
-    <img src="images/preview.jpg" alt="an image" style="float:left;" __designer:mapid="a7" />
-    </p>
-    <p __designer:mapid="2">
-&nbsp; Bienvenidos a la portal web de Medics. Esta platforma les permitira visualizar su 
-        historial medico y al mismo tiempo modificar sus datos personales registrados.</p>
-    <p __designer:mapid="3">
+&nbsp;&nbsp;
     </p>
     <p>
-    </p>
-    <p>
-    </p>
-    <p>
-        &nbsp;</p>
-    <p>
-        &nbsp;</p>
-    <p>
-        &nbsp;</p>
-    <p>
-        &nbsp;</p>
-    <p>
-        &nbsp;</p>
-    <p>
-        &nbsp;</p>
-    <p>
-        &nbsp;</p>
-    <p>
-        Username:<asp:TextBox ID="txtuser" runat="server" Height="20px"></asp:TextBox>
+        <asp:ListBox ID="ListBox1" runat="server" Height="180px" Width="180px">
+        </asp:ListBox>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:ListBox ID="ListBox2" runat="server" Height="180px" Width="180px">
+        </asp:ListBox>
     </p>
     <p>
         &nbsp;</p>
     <p>
-        Password:<asp:TextBox ID="txtpass" runat="server" Height="20px"></asp:TextBox>
+        Historial procedimientos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        Antecedentes tóxicos
     </p>
     <p>
         &nbsp;</p>
     <p>
-        <asp:Button ID="btnLogin" runat="server" Text="Login" 
-            onclick="btnLogin_Click" />
+        <asp:ListBox ID="ListBox3" runat="server" Height="180px" Width="180px">
+        </asp:ListBox>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:ListBox ID="ListBox4" runat="server" Height="180px" Width="180px">
+        </asp:ListBox>
     </p>
     <p>
         &nbsp;</p>
     <p>
-        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+&nbsp;Enfermedades hereditarias</p>
+    <p>
+        &nbsp;</p>
+    <p>
+&nbsp;<asp:ListBox ID="ListBox5" runat="server" AutoPostBack="True" Height="180px" 
+            Width="180px"></asp:ListBox>
     </p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
 </asp:Content>
 <asp:Content ID="Content6" ContentPlaceHolderID="Sidebar1ContentPlaceHolder" runat="server">
-     <art:DefaultSidebar1 ID="DefaultSidebar1Content" runat="server" />
+    <art:DefaultSidebar1 ID="DefaultSidebar1Content" runat="server" />
 </asp:Content>

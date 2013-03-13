@@ -11,12 +11,15 @@ namespace clients.Doctor
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Session["auth"].ToString()=="False")
+                Response.Redirect("/Default.aspx");
+            if (Session["ismedico"].ToString()!="True")
+                Response.Redirect("/Historial.aspx");
         }
 
         protected void btnMiHistorial_Click(object sender, ImageClickEventArgs e)
         {
-            
+            Response.Redirect("/Historial.aspx");
         }
 
         protected void btnPacientes_Click(object sender, ImageClickEventArgs e)

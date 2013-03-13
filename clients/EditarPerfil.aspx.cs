@@ -1,4 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
 using clients.views;
 using System.Web.Script.Serialization;
 using clients.Enumerable;
@@ -7,7 +12,7 @@ using System.Net;
 
 namespace clients
 {
-    public partial class EditarPerfil : System.Web.UI.Page
+    public partial class WebForm2 : System.Web.UI.Page
     {
         Request request = new Request();
         PersonasEditCreateModel persona;
@@ -16,10 +21,14 @@ namespace clients
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["auth"].ToString() == "False")
+                Response.Redirect("/Default.aspx");
             LoadData();
+
         }
 
-        public void LoadData() {
+        public void LoadData()
+        {
 
             var jss = new JavaScriptSerializer();
             persona = jss.Deserialize<PersonasEditCreateModel>(medico111);
@@ -37,14 +46,14 @@ namespace clients
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            
+            const string ipadd = "10.0.0.11";
             var url = "/api/personas/" + persona.idPersona
                         + "?Email=" + persona.Email
                         + "&TelefonoResidencial=" + persona.TelefonoResidencial
                         + "&TelefonoCelular=" + persona.TelefonoCelular
                         + "&Direccion=" + persona.Direccion;
             var urlencrypted = new SecureEncrypt().Encrypt(url, "password");
-            var path = "http://" + request.ipadd() + ":4001/api/user?url=" + urlencrypted;
+            var path = "http://" + ipadd + ":4001/api/user?url=" + urlencrypted;
             var result = request.Using(WebRequestMethods.Http.Put, path);
         }
     }
