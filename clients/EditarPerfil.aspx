@@ -46,10 +46,12 @@
     <p>
         &nbsp;</p>
 <p>
-    <asp:Button ID="Button1" runat="server" Text="Submit" />
+    <asp:Button ID="Button1" runat="server" Text="Submit" CausesValidation="False" 
+        EnableTheming="False" EnableViewState="False" onclick="Button1_Click1" 
+        UseSubmitBehavior="False" />
 </p>
 <p>
-</p>
+    &nbsp;</p>
 <p>
     &nbsp; &nbsp;</p>
 </asp:Content>

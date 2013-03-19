@@ -62,9 +62,18 @@
             onclick="btnLogin_Click" />
     </p>
     <p>
-        &nbsp;</p>
+        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" 
+            ControlToValidate="txtuser" ErrorMessage="Información incompleta"></asp:RequiredFieldValidator>
+    </p>
     <p>
-        &nbsp;</p>
+        <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" 
+            ControlToValidate="txtuser" 
+            ErrorMessage="Nombre de usuario no cumple los requerimientos" 
+            ValidationExpression=".{4}.*"></asp:RegularExpressionValidator>
+    </p>
+    <p>
+        <asp:Label ID="Label1" runat="server"></asp:Label>
+    </p>
 </asp:Content>
 <asp:Content ID="Content6" ContentPlaceHolderID="Sidebar1ContentPlaceHolder" runat="server">
      <art:DefaultSidebar1 ID="DefaultSidebar1Content" runat="server" />

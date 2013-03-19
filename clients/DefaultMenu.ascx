@@ -8,6 +8,6 @@
 		    <li><a href="#">Menu Subitem 3</a></li>
 	    </ul-->
     </li>
-    <li><a href="#"><span class="l"></span><span class="r"></span><span class="t">Medicos</span></a></li>
+    <li><a href="/DeleteMedico.aspx"><span class="l"></span><span class="r"></span><span class="t">Medicos</span></a></li>
     <li><a href="/Default.aspx"><span class="l"></span><span class="r"></span><span class="t">Logout</span></a></li>
 </ul>

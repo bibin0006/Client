@@ -10,6 +10,7 @@ namespace clients.Enumerable
         
         public  string ipadd () {
             const string ip = "54.225.234.58";
+            //const string ip = "10.0.0.10"; 
             return ip;
         }
 

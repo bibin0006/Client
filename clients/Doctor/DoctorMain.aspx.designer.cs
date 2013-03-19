@@ -19,17 +19,7 @@ namespace clients.Doctor {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        //protected global::DefaultHeader DefaultHeader;
-        
-        ///// <summary>
-        ///// DefaultMenuContent control.
-        ///// </summary>
-        ///// <remarks>
-        ///// Auto-generated field.
-        ///// To modify move field declaration from designer file to code-behind file.
-        ///// </remarks>
-        //protected global::Menu DefaultMenuContent;
-        
+     
         /// <summary>
         /// lblbienvenida control.
         /// </summary>
@@ -74,5 +64,32 @@ namespace clients.Doctor {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label2;
+        
+        /// <summary>
+        /// listado_pacientes control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label listado_pacientes;
+        
+        /// <summary>
+        /// RadioButtonList1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonList1;
+        
+        /// <summary>
+        /// Button1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button1;
     }
 }

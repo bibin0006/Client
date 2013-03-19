@@ -40,14 +40,21 @@
     <p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     </p>
+    <h5>
+        <asp:Label ID="listado_pacientes" runat="server"></asp:Label>
+    </h5>
     <p>
         &nbsp;</p>
     <p>
-        &nbsp;</p>
+        <asp:RadioButtonList ID="RadioButtonList1" runat="server" CssClass="art-vmenu">
+        </asp:RadioButtonList>
+    </p>
     <p>
         &nbsp;</p>
     <p>
-        &nbsp;</p>
+        <asp:Button ID="Button1" runat="server" onclick="Button1_Click" Text="Submit" 
+            Visible="False" />
+    </p>
 &nbsp;
 </asp:Content>
 <asp:Content ID="Content6" ContentPlaceHolderID="Sidebar1ContentPlaceHolder" runat="server">

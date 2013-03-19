@@ -17,20 +17,6 @@ namespace clients {
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        //protected global::DefaultHeader DefaultHeader;
-        
-        ///// <summary>
-        ///// DefaultMenuContent control.
-        ///// </summary>
-        ///// <remarks>
-        ///// Auto-generated field.
-        ///// To modify move field declaration from designer file to code-behind file.
-        ///// </remarks>
-        //protected global::Menu DefaultMenuContent;
-        
-        /// <summary>
         /// email_edit control.
         /// </summary>
         /// <remarks>

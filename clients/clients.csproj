@@ -65,6 +65,7 @@
     <Content Include="DefaultSidebar1.ascx" />
     <Content Include="DefaultVerticalMenu.ascx" />
     <Content Include="DeleteMedico.aspx" />
+    <Content Include="DeleteMedico2.aspx" />
     <Content Include="design\Article.ascx" />
     <Content Include="design\Block.ascx" />
     <Content Include="Doctor\DoctorMain.aspx" />
@@ -161,6 +162,13 @@
     <Compile Include="Account\Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DeleteMedico.aspx.cs">
+      <DependentUpon>DeleteMedico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeleteMedico.aspx.designer.cs">
+      <DependentUpon>DeleteMedico.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Doctor\DoctorMain.aspx.cs">
       <DependentUpon>DoctorMain.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -168,6 +176,7 @@
     <Compile Include="Doctor\DoctorMain.aspx.designer.cs">
       <DependentUpon>DoctorMain.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Enumerable\CriptoUtil.cs" />
     <Compile Include="Historial.aspx.cs">
       <DependentUpon>Historial.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -176,7 +185,9 @@
       <DependentUpon>Historial.aspx</DependentUpon>
     </Compile>
     <Compile Include="views\AlergiaViewModel.cs" />
+    <Compile Include="views\DescripcionComentViewModel.cs" />
     <Compile Include="views\DescripcionViewModel.cs" />
+    <Compile Include="views\Enumeration.cs" />
     <Compile Include="views\HistorialMedicoViewModel.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -238,12 +249,12 @@
     <Compile Include="Default2.aspx.designer.cs">
       <DependentUpon>Default2.aspx</DependentUpon>
     </Compile>
-    <Compile Include="DeleteMedico.aspx.cs">
-      <DependentUpon>DeleteMedico.aspx</DependentUpon>
+    <Compile Include="DeleteMedico2.aspx.cs">
+      <DependentUpon>DeleteMedico2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="DeleteMedico.aspx.designer.cs">
-      <DependentUpon>DeleteMedico.aspx</DependentUpon>
+    <Compile Include="DeleteMedico2.aspx.designer.cs">
+      <DependentUpon>DeleteMedico2.aspx</DependentUpon>
     </Compile>
     <Compile Include="EditarPerfil2.aspx.cs">
       <DependentUpon>EditarPerfil2.aspx</DependentUpon>
