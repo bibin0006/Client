@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using clients.views;
 
 namespace mvc4.Models.EntitiesView
 {

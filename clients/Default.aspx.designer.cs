@@ -18,17 +18,7 @@ namespace clients {
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
-        ///// </remarks>
-        //protected global::DefaultHeader DefaultHeader;
-        
-        ///// <summary>
-        ///// DefaultMenuContent control.
-        ///// </summary>
-        ///// <remarks>
-        ///// Auto-generated field.
-        ///// To modify move field declaration from designer file to code-behind file.
-        ///// </remarks>
-        //protected global::Menu DefaultMenuContent;
+        /// </remarks>
         
         /// <summary>
         /// txtuser control.
@@ -83,14 +73,5 @@ namespace clients {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label1;
-        
-        /// <summary>
-        /// DefaultSidebar1Content control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        //protected global::Sidebar1 DefaultSidebar1Content;
     }
 }

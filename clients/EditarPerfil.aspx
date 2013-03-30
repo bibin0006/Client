@@ -48,7 +48,7 @@
 <p>
     <asp:Button ID="Button1" runat="server" Text="Submit" CausesValidation="False" 
         EnableTheming="False" EnableViewState="False" onclick="Button1_Click1" 
-        UseSubmitBehavior="False" />
+        UseSubmitBehavior="False" Height="42px" Width="114px" />
 </p>
 <p>
     &nbsp;</p>

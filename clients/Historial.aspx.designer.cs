@@ -19,69 +19,59 @@ namespace clients {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        //protected global::DefaultHeader DefaultHeader;
-        
-        ///// <summary>
-        ///// DefaultMenuContent control.
-        ///// </summary>
-        ///// <remarks>
-        ///// Auto-generated field.
-        ///// To modify move field declaration from designer file to code-behind file.
-        ///// </remarks>
-        //protected global::Menu DefaultMenuContent;
         
         /// <summary>
-        /// ListBox1 control.
+        /// Accordion1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListBox ListBox1;
+        protected global::AjaxControlToolkit.Accordion Accordion1;
         
         /// <summary>
-        /// ListBox2 control.
+        /// Accordion2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListBox ListBox2;
+        protected global::AjaxControlToolkit.Accordion Accordion2;
         
         /// <summary>
-        /// ListBox3 control.
+        /// Accordion3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListBox ListBox3;
+        protected global::AjaxControlToolkit.Accordion Accordion3;
         
         /// <summary>
-        /// ListBox4 control.
+        /// Accordion4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListBox ListBox4;
+        protected global::AjaxControlToolkit.Accordion Accordion4;
         
         /// <summary>
-        /// ListBox5 control.
+        /// Accordion5 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListBox ListBox5;
+        protected global::AjaxControlToolkit.Accordion Accordion5;
         
         /// <summary>
-        /// DefaultSidebar1Content control.
+        /// ToolkitScriptManager1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        //protected global::Sidebar1 DefaultSidebar1Content;
+        protected global::AjaxControlToolkit.ToolkitScriptManager ToolkitScriptManager1;
     }
 }

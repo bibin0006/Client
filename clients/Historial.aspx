@@ -2,6 +2,7 @@
 <%@ Register src="DefaultHeader.ascx" tagname="DefaultHeader" tagprefix="art" %>
 <%@ Register src="DefaultMenu.ascx" tagname="DefaultMenu" tagprefix="art" %>
 <%@ Register src="DefaultSidebar1.ascx" tagname="DefaultSidebar1" tagprefix="art" %>
+<%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit.HTMLEditor" tagprefix="cc1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="TitleContentPlaceHolder" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ScriptIncludePlaceHolder" runat="server">
@@ -18,49 +19,92 @@
     </p>
     <p>
     </p>
-    <p>
-        Historial de enfermedades&nbsp;&nbsp; Antecedentes alérgicos
-    </p>
-    <p>
-&nbsp;&nbsp;
-    </p>
-    <p>
-        <asp:ListBox ID="ListBox1" runat="server" Height="180px" Width="180px">
-        </asp:ListBox>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:ListBox ID="ListBox2" runat="server" Height="180px" Width="180px">
-        </asp:ListBox>
-    </p>
+    <h4>
+        &nbsp;Historial de enfermedades</h4>
     <p>
         &nbsp;</p>
+    <ajaxToolkit:Accordion ID="Accordion1" runat="server" SelectedIndex="0"
+            HeaderCssClass="accordionHeader" HeaderSelectedCssClass="accordionHeaderSelected"
+            ContentCssClass="accordionContent" FadeTransitions="false" FramesPerSecond="40" 
+            TransitionDuration="250" AutoSize="None" RequireOpenedPane="false" SuppressHeaderPostbacks="true">
+    </ajaxToolkit:Accordion>
+<p>
+        &nbsp;</p>
+    <h4>
+        Antecedentes alérgicos
+    </h4>
     <p>
-        Historial procedimientos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        &nbsp;<ajaxToolkit:Accordion ID="Accordion2" runat="server" SelectedIndex="0"
+            HeaderCssClass="accordionHeader" HeaderSelectedCssClass="accordionHeaderSelected"
+            ContentCssClass="accordionContent" FadeTransitions="false" FramesPerSecond="40" 
+            TransitionDuration="250" AutoSize="None" RequireOpenedPane="false" SuppressHeaderPostbacks="true">
+    </ajaxToolkit:Accordion>
+    <p>
+        &nbsp;</p>
+    <h4>
+        Historial procedimientos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </h4>
+    <p>
+&nbsp;&nbsp;&nbsp;<ajaxToolkit:Accordion ID="Accordion3" runat="server" SelectedIndex="0"
+            HeaderCssClass="accordionHeader" HeaderSelectedCssClass="accordionHeaderSelected"
+            ContentCssClass="accordionContent" FadeTransitions="false" FramesPerSecond="40" 
+            TransitionDuration="250" AutoSize="None" RequireOpenedPane="false" SuppressHeaderPostbacks="true">
+    </ajaxToolkit:Accordion>
+<p>
+        &nbsp;</p>
+<h4>
         Antecedentes tóxicos
+    </h4>
+<p>
+        &nbsp;<ajaxToolkit:Accordion ID="Accordion4" runat="server" SelectedIndex="0"
+            HeaderCssClass="accordionHeader" HeaderSelectedCssClass="accordionHeaderSelected"
+            ContentCssClass="accordionContent" FadeTransitions="false" FramesPerSecond="40" 
+            TransitionDuration="250" AutoSize="None" RequireOpenedPane="false" SuppressHeaderPostbacks="true">
+    </ajaxToolkit:Accordion>
+    <p>
+        &nbsp;</p>
+    <h4>
+        Enfermedades hereditarias</h4>
+    <p>
+        &nbsp;</p>
+    <ajaxToolkit:Accordion ID="Accordion5" runat="server" SelectedIndex="0"
+            HeaderCssClass="accordionHeader" HeaderSelectedCssClass="accordionHeaderSelected"
+            ContentCssClass="accordionContent" FadeTransitions="false" FramesPerSecond="40" 
+            TransitionDuration="250" AutoSize="None" RequireOpenedPane="false" SuppressHeaderPostbacks="true">
+    </ajaxToolkit:Accordion>
     </p>
+    <br />
     <p>
-        &nbsp;</p>
-    <p>
-        <asp:ListBox ID="ListBox3" runat="server" Height="180px" Width="180px">
-        </asp:ListBox>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:ListBox ID="ListBox4" runat="server" Height="180px" Width="180px">
-        </asp:ListBox>
     </p>
-    <p>
+        <br />
+            <p>
         &nbsp;</p>
     <p>
-&nbsp;Enfermedades hereditarias</p>
-    <p>
-        &nbsp;</p>
-    <p>
-&nbsp;<asp:ListBox ID="ListBox5" runat="server" AutoPostBack="True" Height="180px" 
-            Width="180px"></asp:ListBox>
     </p>
-    <p>
+        <br />
+            <p>
         &nbsp;</p>
     <p>
+    </p>
+    <br />
+        <p>
         &nbsp;</p>
-</asp:Content>
+    <p>
+    </p>
+
+
+
+    <ajaxToolkit:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server">
+    </ajaxToolkit:ToolkitScriptManager>
+      
+
+
+
+
+
+    <br />
+&nbsp;<br />
+    </asp:Content>
 <asp:Content ID="Content6" ContentPlaceHolderID="Sidebar1ContentPlaceHolder" runat="server">
-    <art:DefaultSidebar1 ID="DefaultSidebar1Content" runat="server" />
+    
 </asp:Content>
