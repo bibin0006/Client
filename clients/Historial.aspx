@@ -19,6 +19,23 @@
     </p>
     <p>
     </p>
+    <p>
+    </p>
+    <p>
+    </p>
+    <p>
+    </p>
+    <p>
+    </p>
+    <p>
+        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+    </p>
+    <p>
+    </p>
+    <p>
+    </p>
+    <p>
+    </p>
     <h4>
         &nbsp;Historial de enfermedades</h4>
     <p>

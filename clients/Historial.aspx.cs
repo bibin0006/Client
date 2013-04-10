@@ -22,7 +22,10 @@ namespace clients
         protected void Page_Load(object sender, EventArgs e)
         {
             if (Session["auth"].ToString() == "False")
-                Response.Redirect("/Default.aspx"); 
+                Response.Redirect("/Default.aspx");
+            Label1.Font.Size = 12;
+            Label1.Text = Session["nombre"].ToString() + " " + Session["apellido"].ToString() + "<br>" + "Sexo  " + Session["sexo"].ToString() + "    Fecha de Nacimiento  " + Session["nacimiento"] + "<br>" + "Tipo de Sangre  " + Session["tiposangre"] + "<br><br>";
+
             
             LoadData();
         }
@@ -86,14 +89,7 @@ namespace clients
             });
 
 
-
-
-          
-
-           
-
             
-
                 //AccordionPane2.HeaderContainer.Controls.Add(new LiteralControl("Using Markup"));
                 //AccordionPane2.ContentContainer.Controls.Add(new
                 //LiteralControl("Adding panes using markup is really simple."));
@@ -104,13 +100,5 @@ namespace clients
             //historial_medico.AntecedentesEnfermedades.ForEach(enfermedad => Label1.Text += \" \" + enfermedad.Descripcion);
 
         }
-
-        protected void Button1_Click(object sender, EventArgs e)
-        {
-            
-            
-        }
-
-       
     }
 }

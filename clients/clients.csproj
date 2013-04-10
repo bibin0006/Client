@@ -120,6 +120,7 @@
     <Content Include="images\VS.png" />
     <Content Include="images\vsubitem.png" />
     <Content Include="jquery.js" />
+    <Content Include="Laboratorio.aspx" />
     <Content Include="obj\Debug\clients.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\clients.dll" />
     <Content Include="obj\Debug\clients.pdb" />
@@ -133,6 +134,7 @@
     <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.4.1.js" />
     <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="upload.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -193,7 +195,22 @@
     <Compile Include="Historial.aspx.designer.cs">
       <DependentUpon>Historial.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Laboratorio.aspx.cs">
+      <DependentUpon>Laboratorio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Laboratorio.aspx.designer.cs">
+      <DependentUpon>Laboratorio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="upload.aspx.cs">
+      <DependentUpon>upload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="upload.aspx.designer.cs">
+      <DependentUpon>upload.aspx</DependentUpon>
+    </Compile>
     <Compile Include="views\AlergiaViewModel.cs" />
+    <Compile Include="views\AnalisisConsultaViewModel.cs" />
     <Compile Include="views\DescripcionComentViewModel.cs" />
     <Compile Include="views\DescripcionViewModel.cs" />
     <Compile Include="views\Enumeration.cs" />
@@ -212,6 +229,7 @@
     <Compile Include="EditarPerfil.aspx.designer.cs">
       <DependentUpon>EditarPerfil.aspx</DependentUpon>
     </Compile>
+    <Compile Include="views\ResultadoAnalisisConsultaViewModel.cs" />
     <Content Include="App_Code\Article.cs" />
     <Content Include="App_Code\Block.cs" />
     <Compile Include="Client.aspx.cs">

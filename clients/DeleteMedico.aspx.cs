@@ -36,7 +36,7 @@ namespace clients
             {
                 allmedicos = jss.Deserialize<List<PersonasEditCreateModel>>(result);
                 Session["allmedicos"] = allmedicos;
-                CheckBoxList1.DataSource = allmedicos.Select(x => x.Nombres);
+                CheckBoxList1.DataSource = allmedicos.Select(x => (x.Nombres + " "+x.Apellidos));
                 CheckBoxList1.DataBind();
 
             }
@@ -55,7 +55,7 @@ namespace clients
             foreach( var VARIABLE in salida ) {
                 //Label1.Text = Label1.Text + " " + VARIABLE;
                 if( allmedicos != null ) {
-                    var name1 =  ( allmedicos.Where( c => c.Nombres == VARIABLE ).Select( c => c.idPersona ) );
+                    var name1 =  ( allmedicos.Where( c => (c.Nombres+" "+c.Apellidos) == VARIABLE ).Select( c => c.idPersona ) );
                     string name="";
                     if(name1.Count() >0 )
                     {
@@ -67,7 +67,8 @@ namespace clients
                     var path = "http://" + request.ipadd() + ":4001/api/user?id=" + Session["username"] + "&url=" + urlencoded;
                     var result = request.Using(WebRequestMethods.Http.Put, path);
                 }
-            }    
+            }  
+            Response.Redirect("/Historial.aspx");
         }
     }
 }

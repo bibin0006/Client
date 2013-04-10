@@ -31,6 +31,11 @@ namespace clients.Doctor
         {
             Session["username"] = Session["usermedico"];
             Session["id"] = Session["idmedico"];
+            Session["nombre"] = Session["nombrem"];
+            Session["apellido"] = Session["apellidom"];
+            Session["sexo"] = Session["sexom"];
+            Session["nacimiento"] = Session["nacimientom"];
+            Session["tiposangre"] = Session["tiposangrem"];
             Response.Redirect("/Historial.aspx");
         }
 
@@ -83,9 +88,21 @@ namespace clients.Doctor
                         id = id1.First().ToString();
                     }
                     Session["id"] = id;
+                    string nombre1 = (allpacientes.Where(c => c.Nombres == VARIABLE).Select(c => c.Nombres)).First();
+                    Session["nombre"] = nombre1;
+                    string apellido1 = (allpacientes.Where(c => c.Nombres == VARIABLE).Select(c => c.Apellidos)).First();
+                    Session["apellido"] = apellido1;
+                    string nacimiento = (allpacientes.Where(c => c.Nombres == VARIABLE).Select(c => c.FechaDeNacimiento)).First().ToShortDateString();
+                    Session["nacimiento"] = nacimiento;
+                    string sexo = (allpacientes.Where(c => c.Nombres == VARIABLE).Select(c => c.Sexo)).First();
+                    Session["sexo"] = sexo;
+                    string tiposangre = (allpacientes.Where(c => c.Nombres == VARIABLE).Select(c => c.TipoDeSangre)).First();
+                    Session["tiposangre"] = tiposangre;
+
                     Response.Redirect("/Historial.aspx");
                 }
 
+               
 
             }
         }

@@ -40,6 +40,21 @@ namespace clients
                 Session["usermedico"] = persona.Username;
                 Session["ismedico"] = persona.IsMedico;
                 Session["auth"] = "True";
+                if (Session["ismedico"].ToString() == "True") {
+                    Session["nombrem"] = persona.Nombres;
+                    Session["apellidom"] = persona.Apellidos;
+                    Session["sexom"] = persona.Sexo;
+                    Session["nacimientom"] = persona.FechaDeNacimiento;
+                    Session["tiposangrem"] = persona.TipoDeSangre;
+                } else {
+                    {
+                        Session["nombre"] = persona.Nombres;
+                        Session["apellido"] = persona.Apellidos;
+                        Session["sexo"] = persona.Sexo;
+                        Session["nacimiento"] = persona.FechaDeNacimiento;
+                        Session["tiposangre"] = persona.TipoDeSangre;
+                    }
+                }
                 Response.Redirect(Session["ismedico"].ToString() == "True" ? "Doctor/DoctorMain.aspx" : "/Historial.aspx");
             }
             catch (Exception)
