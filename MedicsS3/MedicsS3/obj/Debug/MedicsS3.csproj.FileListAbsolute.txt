@@ -1,0 +1,24 @@
+c:\users\nora lopez\documents\visual studio 2010\Projects\MedicsS3\MedicsS3\bin\Debug\MedicsS3.exe.config
+c:\users\nora lopez\documents\visual studio 2010\Projects\MedicsS3\MedicsS3\bin\Debug\MedicsS3.exe
+c:\users\nora lopez\documents\visual studio 2010\Projects\MedicsS3\MedicsS3\bin\Debug\MedicsS3.pdb
+c:\users\nora lopez\documents\visual studio 2010\Projects\MedicsS3\MedicsS3\bin\Debug\AWSSDK.dll
+c:\users\nora lopez\documents\visual studio 2010\Projects\MedicsS3\MedicsS3\bin\Debug\AWSSDK.xml
+c:\users\nora lopez\documents\visual studio 2010\Projects\MedicsS3\MedicsS3\obj\Debug\ResolveAssemblyReference.cache
+c:\users\nora lopez\documents\visual studio 2010\Projects\MedicsS3\MedicsS3\obj\Debug\MedicsS3.exe
+c:\users\nora lopez\documents\visual studio 2010\Projects\MedicsS3\MedicsS3\obj\Debug\MedicsS3.pdb
+C:\Users\Alberto\Dropbox\ARA (2)\Proyecto\Projects\Projects\MedicsS3\MedicsS3\bin\Debug\MedicsS3.exe.config
+C:\Users\Alberto\Dropbox\ARA (2)\Proyecto\Projects\Projects\MedicsS3\MedicsS3\obj\Debug\MedicsS3.exe
+C:\Users\Alberto\Dropbox\ARA (2)\Proyecto\Projects\Projects\MedicsS3\MedicsS3\obj\Debug\MedicsS3.pdb
+C:\Users\Alberto\Dropbox\ARA (2)\Proyecto\Projects\Projects\MedicsS3\MedicsS3\bin\Debug\MedicsS3.exe
+C:\Users\Alberto\Dropbox\ARA (2)\Proyecto\Projects\Projects\MedicsS3\MedicsS3\bin\Debug\MedicsS3.pdb
+C:\Users\Alberto\Dropbox\ARA (2)\Proyecto\Projects\Projects\MedicsS3\MedicsS3\bin\Debug\AWSSDK.dll
+C:\Users\Alberto\Dropbox\ARA (2)\Proyecto\Projects\Projects\MedicsS3\MedicsS3\bin\Debug\AWSSDK.xml
+C:\Users\Alberto\Dropbox\ARA (2)\Proyecto\Projects\Projects\MedicsS3\MedicsS3\obj\Debug\MedicsS3.csprojResolveAssemblyReference.cache
+C:\Users\XuserX\Desktop\Client\MedicsS3\MedicsS3\bin\Debug\MedicsS3.exe.config
+C:\Users\XuserX\Desktop\Client\MedicsS3\MedicsS3\bin\Debug\MedicsS3.exe
+C:\Users\XuserX\Desktop\Client\MedicsS3\MedicsS3\bin\Debug\MedicsS3.pdb
+C:\Users\XuserX\Desktop\Client\MedicsS3\MedicsS3\bin\Debug\AWSSDK.dll
+C:\Users\XuserX\Desktop\Client\MedicsS3\MedicsS3\bin\Debug\AWSSDK.xml
+C:\Users\XuserX\Desktop\Client\MedicsS3\MedicsS3\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\XuserX\Desktop\Client\MedicsS3\MedicsS3\obj\Debug\MedicsS3.exe
+C:\Users\XuserX\Desktop\Client\MedicsS3\MedicsS3\obj\Debug\MedicsS3.pdb

@@ -4,12 +4,11 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Script.Serialization;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 using clients.Enumerable;
-using clients.views;
 using mvc4.Account;
 using mvc4.Models.EntitiesView;
+
+
 
 namespace clients
 {
@@ -20,6 +19,7 @@ namespace clients
         
         protected void Page_Load(object sender, EventArgs e)
         {
+            if(!IsPostBack)
             LoadData();
             Label1.Text = Session["nombre"].ToString(  );
         }
@@ -33,41 +33,41 @@ namespace clients
             var result = request.Using(WebRequestMethods.Http.Get, path);
 
             var jss = new JavaScriptSerializer();
-            try
-            {
+            try{
                 allexams = jss.Deserialize<List<AnalisisConsultaViewModel>>(result);
-                Session["allexams"] = allexams;
-                RadioButtonList1.DataSource = allexams.Select(x => x.AnalisisDescripcion);
-                RadioButtonList1.DataBind();
-
-            }
-            catch (Exception) { }
-        }
-
-        protected void Button1_Click(object sender, EventArgs e)
-        {
-            var salida = new List<String>();
-            for (int i = 0; i < RadioButtonList1.Items.Count; i++)
-            {
-                if (RadioButtonList1.Items[i].Selected == true)
-                    salida.Add(RadioButtonList1.Items[i].Text);
-            }
-            allexams = ( List<AnalisisConsultaViewModel> ) Session["allexams"];
-            foreach (var VARIABLE in salida)
-            {
-                //Label1.Text = Label1.Text + " " + VARIABLE;
-                if (allexams != null)
-                {
-                    var id1 = (allexams.Where(c => c.AnalisisDescripcion == VARIABLE).Select(c => c.idAnalisis));
-                    string id = "";
-                    if (id1.Count() > 0)
-                    {
-                        id = id1.First().ToString();
-                    }
-                    Session["id"] = id;
-                    Response.Redirect("/Historial.aspx");
+                if (allexams.Count > 0){
+                    Session["allexams"] = allexams;
+                    RadioButtonList1.DataSource = allexams.Select(x => x.AnalisisDescripcion);
+                    RadioButtonList1.SelectedIndex = 0;
+                    RadioButtonList1.DataBind();
                 }
-            }
+            }catch( Exception ) { }
         }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            allexams = (List<AnalisisConsultaViewModel>)Session["allexams"];
+            var resultado = RadioButtonList1.SelectedValue;
+            if( allexams == null ) return;
+            var analisis_consultado = allexams.Find(x => x.AnalisisDescripcion == resultado);
+
+            var ext = System.IO.Path.GetExtension(FileUpload1.FileName);
+            var local_path = Server.MapPath("~\\Files\\");
+            var file_path = local_path + FileUpload1.FileName;
+            var file_name = Session["id"] + "/" + resultado + " " + DateTime.Now.Day + "-" + DateTime.Now.Month + "-" + DateTime.Now.Year + ext;
+            MedicsS3.S3Util.UploadFile(file_path, file_name);
+
+            
+            var url = "/api/Instituciones/PutResultadoAnalisis?"
+                + "idAnalisisConsulta=" + analisis_consultado.idAnalisisConsulta
+                + "&idInstitucion=" + Session["idi"]
+                + "&urlPath=" + file_name;
+            var urlencrypted = new SecureEncrypt().Encrypt(url, Session["hash"].ToString());
+            var urlencoded = HttpUtility.UrlEncode(urlencrypted);
+            var path = "http://" + request.ipadd() + ":4001/api/user?id=" + Session["username"] + "&url=" + urlencoded;
+            var result = request.Using(WebRequestMethods.Http.Post, path);
+        }
+       
+        
     }
 }

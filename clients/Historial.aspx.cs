@@ -24,7 +24,7 @@ namespace clients
             if (Session["auth"].ToString() == "False")
                 Response.Redirect("/Default.aspx");
             Label1.Font.Size = 12;
-            Label1.Text = Session["nombre"].ToString() + " " + Session["apellido"].ToString() + "<br>" + "Sexo  " + Session["sexo"].ToString() + "    Fecha de Nacimiento  " + Session["nacimiento"] + "<br>" + "Tipo de Sangre  " + Session["tiposangre"] + "<br><br>";
+            Label1.Text = Session["nombre"].ToString() + " " + Session["apellido"].ToString() + "<br>" + "Sexo  " + Session["sexo"] + "    Fecha de Nacimiento  " + Session["nacimiento"] + "<br>" + "Tipo de Sangre  " + Session["tiposangre"] + "<br><br>";
 
             
             LoadData();

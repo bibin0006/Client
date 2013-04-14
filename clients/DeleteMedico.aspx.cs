@@ -19,6 +19,10 @@ namespace clients
         {
             if (Session["auth"].ToString() == "False")
                 Response.Redirect("/Default.aspx");
+            if(Session["ismedico"].ToString() == "True") {
+                Session["id"] = Session["idmedico"];
+                Session["username"] = Session["usermedico"];
+            }
             if(!IsPostBack)
             LoadData();
         }

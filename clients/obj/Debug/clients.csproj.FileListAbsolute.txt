@@ -38,3 +38,6 @@ C:\Users\XuserX\Desktop\Client\clients\bin\ru\AjaxControlToolkit.resources.dll
 C:\Users\XuserX\Desktop\Client\clients\bin\tr-TR\AjaxControlToolkit.resources.dll
 C:\Users\XuserX\Desktop\Client\clients\bin\zh-CHS\AjaxControlToolkit.resources.dll
 C:\Users\XuserX\Desktop\Client\clients\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Users\XuserX\Desktop\Client\clients\bin\MedicsS3.exe
+C:\Users\XuserX\Desktop\Client\clients\bin\MedicsS3.pdb
+C:\Users\XuserX\Desktop\Client\clients\bin\clients.dll.config

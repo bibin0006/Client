@@ -98,6 +98,7 @@
     <Content Include="images\header.png" />
     <Content Include="images\link photo.txt" />
     <Content Include="images\medico.jpg" />
+    <Content Include="images\medicslogo.png" />
     <Content Include="images\menuitem.png" />
     <Content Include="images\menuseparator.png" />
     <Content Include="images\nav.png" />
@@ -120,6 +121,8 @@
     <Content Include="images\VS.png" />
     <Content Include="images\vsubitem.png" />
     <Content Include="jquery.js" />
+    <Content Include="LabLogin.aspx" />
+    <Content Include="UserLogin.aspx" />
     <Content Include="Laboratorio.aspx" />
     <Content Include="obj\Debug\clients.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\clients.dll" />
@@ -195,6 +198,20 @@
     <Compile Include="Historial.aspx.designer.cs">
       <DependentUpon>Historial.aspx</DependentUpon>
     </Compile>
+    <Compile Include="LabLogin.aspx.cs">
+      <DependentUpon>LabLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LabLogin.aspx.designer.cs">
+      <DependentUpon>LabLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserLogin.aspx.cs">
+      <DependentUpon>UserLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserLogin.aspx.designer.cs">
+      <DependentUpon>UserLogin.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Laboratorio.aspx.cs">
       <DependentUpon>Laboratorio.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -229,6 +246,7 @@
     <Compile Include="EditarPerfil.aspx.designer.cs">
       <DependentUpon>EditarPerfil.aspx</DependentUpon>
     </Compile>
+    <Compile Include="views\InstitucionesViewModel.cs" />
     <Compile Include="views\ResultadoAnalisisConsultaViewModel.cs" />
     <Content Include="App_Code\Article.cs" />
     <Content Include="App_Code\Block.cs" />
@@ -307,6 +325,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Files\" />
     <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <ItemGroup>
@@ -320,8 +339,17 @@
     <Content Include="design\MasterPage.master" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App.config">
+      <SubType>Designer</SubType>
+    </Content>
     <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <None Include="obj\Debug\ResolveAssemblyReference.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MedicsS3\MedicsS3\MedicsS3.csproj">
+      <Project>{98DB1184-9E9C-49A0-AA9D-D1635D093A8A}</Project>
+      <Name>MedicsS3</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

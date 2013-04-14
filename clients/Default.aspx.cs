@@ -44,9 +44,9 @@ namespace clients
                     Session["nombrem"] = persona.Nombres;
                     Session["apellidom"] = persona.Apellidos;
                     Session["sexom"] = persona.Sexo;
-                    Session["nacimientom"] = persona.FechaDeNacimiento;
+                    Session["nacimientom"] = persona.FechaDeNacimiento.ToShortDateString(  );
                     Session["tiposangrem"] = persona.TipoDeSangre;
-                } else {
+                }  {
                     {
                         Session["nombre"] = persona.Nombres;
                         Session["apellido"] = persona.Apellidos;

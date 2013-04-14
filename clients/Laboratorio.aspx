@@ -5,7 +5,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ScriptIncludePlaceHolder" runat="server">
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="HeaderContentPlaceHolder" runat="server">
-    <art:DefaultHeader ID="DefaultHeader" runat="server" />
+    <asp:Image ID="Image3" runat="server" ImageUrl="~/images/medicslogo.png" />
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="MenuContentPlaceHolder" runat="server">
 </asp:Content>
@@ -19,14 +19,26 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <br />
     <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:RadioButtonList ID="RadioButtonList1" runat="server" CssClass="art-vmenu">
         </asp:RadioButtonList>
     <br />
-    <br />
-    <asp:Button ID="Button1" runat="server" onclick="Button1_Click" Text="Button" 
-        Height="40px" Width="128px" />
     <p>
+    </p>
+<p>
+    </p>
+<p>
+    <asp:FileUpload ID="FileUpload1" runat="server" />
+    </p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+        &nbsp;</p>
+    <p>
+    <asp:Button ID="Button2" runat="server" onclick="Button2_Click" Text="Upload" 
+            Height="54px" Width="140px" />
     </p>
     <p>
         &nbsp;</p>

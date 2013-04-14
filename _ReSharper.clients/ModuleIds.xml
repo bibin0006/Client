@@ -1,3 +1,4 @@
 <Modules>
   <Module PersistentId="C22C410E-2FBC-4C3F-BAE0-8F5026F8B668" ModuleId="clients" />
+  <Module PersistentId="98DB1184-9E9C-49A0-AA9D-D1635D093A8A" ModuleId="MedicsS3" />
 </Modules>

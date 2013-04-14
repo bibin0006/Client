@@ -6,15 +6,32 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="TitleContentPlaceHolder" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ScriptIncludePlaceHolder" runat="server">
+    <style type="text/css">
+        .style1
+        {
+            font-family: "Palatino Linotype";
+        }
+        .style2
+        {
+            font-size: large;
+        }
+        .style3
+        {
+            font-family: "Palatino Linotype";
+            font-size: large;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="HeaderContentPlaceHolder" runat="server">
+    <asp:Image ID="Image3" runat="server" ImageUrl="~/images/medicslogo.png" />
     <art:DefaultHeader ID="DefaultHeader" runat="server" />
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="MenuContentPlaceHolder" runat="server">
     <art:DefaultMenu ID="DefaultMenuContent" runat="server" />
 </asp:Content>
 <asp:Content ID="Content5" ContentPlaceHolderID="SheetContentPlaceHolder" runat="server">
-    <p>
+    <p class="style1">
+        <span class="style2">
         <br />
     </p>
     <p>
@@ -27,8 +44,9 @@
     </p>
     <p>
     </p>
-    <p>
+    <p class="style1">
         <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+        </span>
     </p>
     <p>
     </p>
@@ -36,76 +54,78 @@
     </p>
     <p>
     </p>
-    <h4>
+    <h4 class="style3">
         &nbsp;Historial de enfermedades</h4>
-    <p>
-        &nbsp;</p>
+    <p class="style1">
+        <span class="style2"></p>
     <ajaxToolkit:Accordion ID="Accordion1" runat="server" SelectedIndex="0"
             HeaderCssClass="accordionHeader" HeaderSelectedCssClass="accordionHeaderSelected"
             ContentCssClass="accordionContent" FadeTransitions="false" FramesPerSecond="40" 
             TransitionDuration="250" AutoSize="None" RequireOpenedPane="false" SuppressHeaderPostbacks="true">
     </ajaxToolkit:Accordion>
-<p>
-        &nbsp;</p>
-    <h4>
+<p class="style1">
+        </span></p>
+    <h4 class="style3">
         Antecedentes alérgicos
     </h4>
-    <p>
-        &nbsp;<ajaxToolkit:Accordion ID="Accordion2" runat="server" SelectedIndex="0"
+    <p class="style1">
+        <span class="style2"><ajaxToolkit:Accordion ID="Accordion2" runat="server" SelectedIndex="0"
             HeaderCssClass="accordionHeader" HeaderSelectedCssClass="accordionHeaderSelected"
             ContentCssClass="accordionContent" FadeTransitions="false" FramesPerSecond="40" 
             TransitionDuration="250" AutoSize="None" RequireOpenedPane="false" SuppressHeaderPostbacks="true">
     </ajaxToolkit:Accordion>
-    <p>
-        &nbsp;</p>
-    <h4>
+    <p class="style1">
+        </span></p>
+    <h4 class="style3">
         Historial procedimientos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     </h4>
-    <p>
-&nbsp;&nbsp;&nbsp;<ajaxToolkit:Accordion ID="Accordion3" runat="server" SelectedIndex="0"
+    <p class="style1">
+        <span class="style2">&nbsp;&nbsp;&nbsp;<ajaxToolkit:Accordion ID="Accordion3" runat="server" SelectedIndex="0"
             HeaderCssClass="accordionHeader" HeaderSelectedCssClass="accordionHeaderSelected"
             ContentCssClass="accordionContent" FadeTransitions="false" FramesPerSecond="40" 
             TransitionDuration="250" AutoSize="None" RequireOpenedPane="false" SuppressHeaderPostbacks="true">
     </ajaxToolkit:Accordion>
-<p>
-        &nbsp;</p>
-<h4>
+<p class="style1">
+        </span></p>
+<h4 class="style3">
         Antecedentes tóxicos
     </h4>
-<p>
-        &nbsp;<ajaxToolkit:Accordion ID="Accordion4" runat="server" SelectedIndex="0"
+<p class="style1">
+        <span class="style2"><ajaxToolkit:Accordion ID="Accordion4" runat="server" SelectedIndex="0"
             HeaderCssClass="accordionHeader" HeaderSelectedCssClass="accordionHeaderSelected"
             ContentCssClass="accordionContent" FadeTransitions="false" FramesPerSecond="40" 
             TransitionDuration="250" AutoSize="None" RequireOpenedPane="false" SuppressHeaderPostbacks="true">
     </ajaxToolkit:Accordion>
-    <p>
-        &nbsp;</p>
-    <h4>
+    <p class="style1">
+        </span></p>
+    <h4 class="style3">
         Enfermedades hereditarias</h4>
-    <p>
-        &nbsp;</p>
+    <p class="style1">
+        <span class="style2"></p>
     <ajaxToolkit:Accordion ID="Accordion5" runat="server" SelectedIndex="0"
             HeaderCssClass="accordionHeader" HeaderSelectedCssClass="accordionHeaderSelected"
             ContentCssClass="accordionContent" FadeTransitions="false" FramesPerSecond="40" 
             TransitionDuration="250" AutoSize="None" RequireOpenedPane="false" SuppressHeaderPostbacks="true">
     </ajaxToolkit:Accordion>
     </p>
+    <span class="style1">
     <br />
     <p>
     </p>
         <br />
-            <p>
-        &nbsp;</p>
+            </span>
+            <p class="style1">
+                &nbsp;</p>
     <p>
     </p>
-        <br />
-            <p>
-        &nbsp;</p>
+        <br class="style1" />
+            <p class="style1">
+                &nbsp;</p>
     <p>
     </p>
-    <br />
-        <p>
-        &nbsp;</p>
+    <br class="style1" />
+        <p class="style1">
+            &nbsp;</p>
     <p>
     </p>
 
@@ -119,9 +139,16 @@
 
 
 
+    </span><span class="style1"><span class="style2">
+      
+
+
+
+
+
     <br />
 &nbsp;<br />
-    </asp:Content>
+    </span></span></asp:Content>
 <asp:Content ID="Content6" ContentPlaceHolderID="Sidebar1ContentPlaceHolder" runat="server">
     
 </asp:Content>

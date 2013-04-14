@@ -60,7 +60,7 @@ namespace clients.Doctor
             {
                 allpacientes = jss.Deserialize<List<PersonasEditCreateModel>>(result);
                 Session["allpacientes"] = allpacientes;
-                RadioButtonList1.DataSource = allpacientes.Select(x => x.Nombres);
+                RadioButtonList1.DataSource = allpacientes.Select(x => (x.Nombres +" "+ x.Apellidos +"  Cédula: "+ x.Cedula));
                 RadioButtonList1.DataBind();
 
             }
@@ -81,22 +81,22 @@ namespace clients.Doctor
                 //Label1.Text = Label1.Text + " " + VARIABLE;
                 if (allpacientes != null)
                 {
-                    var id1 = (allpacientes.Where(c => c.Nombres == VARIABLE).Select(c => c.idPersona));
+                    var id1 = (allpacientes.Where(c => (c.Nombres + " " + c.Apellidos + "  Cédula: " + c.Cedula) == VARIABLE).Select(c => c.idPersona));
                     string id = "";
                     if (id1.Count() > 0)
                     {
                         id = id1.First().ToString();
                     }
                     Session["id"] = id;
-                    string nombre1 = (allpacientes.Where(c => c.Nombres == VARIABLE).Select(c => c.Nombres)).First();
+                    string nombre1 = (allpacientes.Where(c => (c.Nombres + " " + c.Apellidos + "  Cédula: " + c.Cedula) == VARIABLE).Select(c => c.Nombres)).First();
                     Session["nombre"] = nombre1;
-                    string apellido1 = (allpacientes.Where(c => c.Nombres == VARIABLE).Select(c => c.Apellidos)).First();
+                    string apellido1 = (allpacientes.Where(c => (c.Nombres + " " + c.Apellidos + "  Cédula: " + c.Cedula) == VARIABLE).Select(c => c.Apellidos)).First();
                     Session["apellido"] = apellido1;
-                    string nacimiento = (allpacientes.Where(c => c.Nombres == VARIABLE).Select(c => c.FechaDeNacimiento)).First().ToShortDateString();
+                    string nacimiento = (allpacientes.Where(c => (c.Nombres + " " + c.Apellidos + "  Cédula: " + c.Cedula) == VARIABLE).Select(c => c.FechaDeNacimiento)).First().ToShortDateString();
                     Session["nacimiento"] = nacimiento;
-                    string sexo = (allpacientes.Where(c => c.Nombres == VARIABLE).Select(c => c.Sexo)).First();
+                    string sexo = (allpacientes.Where(c => (c.Nombres + " " + c.Apellidos + "  Cédula: " + c.Cedula) == VARIABLE).Select(c => c.Sexo)).First();
                     Session["sexo"] = sexo;
-                    string tiposangre = (allpacientes.Where(c => c.Nombres == VARIABLE).Select(c => c.TipoDeSangre)).First();
+                    string tiposangre = (allpacientes.Where(c => (c.Nombres + " " + c.Apellidos + "  Cédula: " + c.Cedula) == VARIABLE).Select(c => c.TipoDeSangre)).First();
                     Session["tiposangre"] = tiposangre;
 
                     Response.Redirect("/Historial.aspx");

@@ -1,0 +1,16 @@
+C:\Users\Alberto\Dropbox\ARA (2)\Proyecto\Projects\Projects\MedicsS3\WpfBrowserApplication1\bin\Debug\WpfBrowserApplication1.exe.manifest
+C:\Users\Alberto\Dropbox\ARA (2)\Proyecto\Projects\Projects\MedicsS3\WpfBrowserApplication1\bin\Debug\WpfBrowserApplication1.xbap
+C:\Users\Alberto\Dropbox\ARA (2)\Proyecto\Projects\Projects\MedicsS3\WpfBrowserApplication1\bin\Debug\WpfBrowserApplication1.exe
+C:\Users\Alberto\Dropbox\ARA (2)\Proyecto\Projects\Projects\MedicsS3\WpfBrowserApplication1\bin\Debug\WpfBrowserApplication1.pdb
+C:\Users\Alberto\Dropbox\ARA (2)\Proyecto\Projects\Projects\MedicsS3\WpfBrowserApplication1\obj\Debug\Page1.baml
+C:\Users\Alberto\Dropbox\ARA (2)\Proyecto\Projects\Projects\MedicsS3\WpfBrowserApplication1\obj\Debug\Page1.g.cs
+C:\Users\Alberto\Dropbox\ARA (2)\Proyecto\Projects\Projects\MedicsS3\WpfBrowserApplication1\obj\Debug\App.g.cs
+C:\Users\Alberto\Dropbox\ARA (2)\Proyecto\Projects\Projects\MedicsS3\WpfBrowserApplication1\obj\Debug\WpfBrowserApplication1_MarkupCompile.cache
+C:\Users\Alberto\Dropbox\ARA (2)\Proyecto\Projects\Projects\MedicsS3\WpfBrowserApplication1\obj\Debug\WpfBrowserApplication1.g.resources
+C:\Users\Alberto\Dropbox\ARA (2)\Proyecto\Projects\Projects\MedicsS3\WpfBrowserApplication1\obj\Debug\WpfBrowserApplication1.Properties.Resources.resources
+C:\Users\Alberto\Dropbox\ARA (2)\Proyecto\Projects\Projects\MedicsS3\WpfBrowserApplication1\obj\Debug\WpfBrowserApplication1.csproj.GenerateResource.Cache
+C:\Users\Alberto\Dropbox\ARA (2)\Proyecto\Projects\Projects\MedicsS3\WpfBrowserApplication1\obj\Debug\WpfBrowserApplication1.TrustInfo.xml
+C:\Users\Alberto\Dropbox\ARA (2)\Proyecto\Projects\Projects\MedicsS3\WpfBrowserApplication1\obj\Debug\WpfBrowserApplication1.exe.manifest
+C:\Users\Alberto\Dropbox\ARA (2)\Proyecto\Projects\Projects\MedicsS3\WpfBrowserApplication1\obj\Debug\WpfBrowserApplication1.xbap
+C:\Users\Alberto\Dropbox\ARA (2)\Proyecto\Projects\Projects\MedicsS3\WpfBrowserApplication1\obj\Debug\WpfBrowserApplication1.exe
+C:\Users\Alberto\Dropbox\ARA (2)\Proyecto\Projects\Projects\MedicsS3\WpfBrowserApplication1\obj\Debug\WpfBrowserApplication1.pdb
