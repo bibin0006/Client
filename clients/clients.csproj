@@ -69,6 +69,7 @@
     <Content Include="bin\clients.dll" />
     <Content Include="bin\clients.pdb" />
     <Content Include="Client.aspx" />
+    <Content Include="LabDefaultMenu.ascx" />
     <Content Include="DefaultHeader.ascx" />
     <Content Include="DefaultMenu.ascx" />
     <Content Include="DefaultSidebar1.ascx" />
@@ -176,6 +177,10 @@
     <Compile Include="Account\Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
+    <Compile Include="LabDefaultMenu.ascx.cs">
+      <DependentUpon>LabDefaultMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="DeleteMedico.aspx.cs">
       <DependentUpon>DeleteMedico.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -247,6 +252,7 @@
       <DependentUpon>EditarPerfil.aspx</DependentUpon>
     </Compile>
     <Compile Include="views\InstitucionesViewModel.cs" />
+    <Compile Include="views\PersonasViewModel.cs" />
     <Compile Include="views\ResultadoAnalisisConsultaViewModel.cs" />
     <Content Include="App_Code\Article.cs" />
     <Content Include="App_Code\Block.cs" />

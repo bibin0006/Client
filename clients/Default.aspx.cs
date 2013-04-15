@@ -51,7 +51,7 @@ namespace clients
                         Session["nombre"] = persona.Nombres;
                         Session["apellido"] = persona.Apellidos;
                         Session["sexo"] = persona.Sexo;
-                        Session["nacimiento"] = persona.FechaDeNacimiento;
+                        Session["nacimiento"] = persona.FechaDeNacimiento.ToShortDateString();
                         Session["tiposangre"] = persona.TipoDeSangre;
                     }
                 }

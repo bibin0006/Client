@@ -22,6 +22,14 @@ namespace clients {
         protected global::System.Web.UI.WebControls.Image Image3;
         
         /// <summary>
+        /// DefaultMenuContent control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        
+        /// <summary>
         /// txtuser control.
         /// </summary>
         /// <remarks>

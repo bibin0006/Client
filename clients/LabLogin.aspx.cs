@@ -23,7 +23,7 @@ namespace clients
         {
             //Modificar encryp
             Session["hashi"] = CriptoUtil.HashLogin(txtuser.Text, txtpass.Text);
-            Label2.Text = Session["hashi"].ToString();
+            
             var url = "/api/instituciones/GetInstitucion?Username=" + txtuser.Text;
             var urlencrypted = new SecureEncrypt().Encrypt(url, Session["hashi"].ToString());
             var urlencoded = HttpUtility.UrlEncode(urlencrypted);

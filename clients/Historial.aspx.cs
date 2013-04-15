@@ -41,8 +41,8 @@ namespace clients
 
             var jss = new JavaScriptSerializer();
             var historial_medico = jss.Deserialize<HistorialMedicoViewModel>(result);
-            var enfermedades = historial_medico.AntecedentesEnfermedades.Select(VARIABLE => VARIABLE.Fecha.ToShortDateString(  ) + " " + VARIABLE.Descripcion).ToList();
-            historial_medico.AntecedentesEnfermedades.ForEach(enfermedad =>
+            var enfermedades = historial_medico.Enfermedades.Select(VARIABLE => VARIABLE.Fecha.ToShortDateString(  ) + " " + VARIABLE.Descripcion).ToList();
+            historial_medico.Enfermedades.ForEach(enfermedad =>
             {
                 var AccordionPane1 = new AccordionPane { ID = Guid.NewGuid().ToString() };
                 AccordionPane1.HeaderContainer.Controls.Add(new LiteralControl(enfermedad.Fecha.ToShortDateString() + " ----  " + enfermedad.Descripcion));
@@ -52,8 +52,8 @@ namespace clients
             //ListBox1.DataSource = enfermedades;
             //ListBox1.DataBind();
 
-            var alergias = historial_medico.AntecedentesAlergico.Select(VARIABLE => VARIABLE.Fecha.ToShortDateString() + " ----  " + VARIABLE.ElemmentoAlergico).ToList();
-            historial_medico.AntecedentesAlergico.ForEach(alergia =>
+            var alergias = historial_medico.Alergias.Select(VARIABLE => VARIABLE.Fecha.ToShortDateString() + " ----  " + VARIABLE.ElemmentoAlergico).ToList();
+            historial_medico.Alergias.ForEach(alergia =>
             {
                 var AccordionPane1 = new AccordionPane { ID = Guid.NewGuid().ToString() };
                 AccordionPane1.HeaderContainer.Controls.Add(new LiteralControl(alergia.Fecha.ToShortDateString() + " ----  " + alergia.ElemmentoAlergico));
@@ -61,8 +61,8 @@ namespace clients
                 Accordion2.Panes.Add(AccordionPane1);
             });
 
-            var procedimientos = historial_medico.AntecedentesProcedimientos.Select(VARIABLE => VARIABLE.Fecha.ToShortDateString() + " ----  " + VARIABLE.Descripcion).ToList();
-            historial_medico.AntecedentesProcedimientos.ForEach(procedimiento =>
+            var procedimientos = historial_medico.Procedimientos.Select(VARIABLE => VARIABLE.Fecha.ToShortDateString() + " ----  " + VARIABLE.Descripcion).ToList();
+            historial_medico.Procedimientos.ForEach(procedimiento =>
             {
                 var AccordionPane1 = new AccordionPane { ID = Guid.NewGuid().ToString() };
                 AccordionPane1.HeaderContainer.Controls.Add(new LiteralControl(procedimiento.Fecha.ToShortDateString() + " ----  " + procedimiento.Descripcion));
@@ -70,8 +70,8 @@ namespace clients
                 Accordion3.Panes.Add(AccordionPane1);
             });
 
-            var toxicos = historial_medico.AntecedentesToxicos.Select(VARIABLE => VARIABLE.Descripcion).ToList();
-            historial_medico.AntecedentesToxicos.ForEach(toxico =>
+            var toxicos = historial_medico.Toxicos.Select(VARIABLE => VARIABLE.Descripcion).ToList();
+            historial_medico.Toxicos.ForEach(toxico =>
             {
                 var AccordionPane1 = new AccordionPane { ID = Guid.NewGuid().ToString() };
                 AccordionPane1.HeaderContainer.Controls.Add(new LiteralControl(toxico.Descripcion));
