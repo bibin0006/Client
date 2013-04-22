@@ -69,6 +69,7 @@
     <Content Include="bin\clients.dll" />
     <Content Include="bin\clients.pdb" />
     <Content Include="Client.aspx" />
+    <Content Include="images\Laboratory.jpg" />
     <Content Include="LabDefaultMenu.ascx" />
     <Content Include="DefaultHeader.ascx" />
     <Content Include="DefaultMenu.ascx" />
@@ -233,9 +234,13 @@
     </Compile>
     <Compile Include="views\AlergiaViewModel.cs" />
     <Compile Include="views\AnalisisConsultaViewModel.cs" />
+    <Compile Include="views\AnalisisViewModel.cs" />
     <Compile Include="views\DescripcionComentViewModel.cs" />
     <Compile Include="views\DescripcionViewModel.cs" />
+    <Compile Include="views\DiagnosticoViewModel.cs" />
+    <Compile Include="views\EnfermedadHereditariaViewModel.cs" />
     <Compile Include="views\Enumeration.cs" />
+    <Compile Include="views\ExamenesViewModel.cs" />
     <Compile Include="views\HistorialMedicoViewModel.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -252,8 +257,11 @@
       <DependentUpon>EditarPerfil.aspx</DependentUpon>
     </Compile>
     <Compile Include="views\InstitucionesViewModel.cs" />
+    <Compile Include="views\MedicosViewModel.cs" />
     <Compile Include="views\PersonasViewModel.cs" />
     <Compile Include="views\ResultadoAnalisisConsultaViewModel.cs" />
+    <Compile Include="views\SocioEconomicoViewModel.cs" />
+    <Compile Include="views\ToxicoViewModel.cs" />
     <Content Include="App_Code\Article.cs" />
     <Content Include="App_Code\Block.cs" />
     <Compile Include="Client.aspx.cs">

@@ -65,6 +65,7 @@
     </ajaxToolkit:Accordion>
 <p class="style1">
         </span></p>
+        <br/>
     <h4 class="style3">
         Antecedentes alérgicos
     </h4>
@@ -76,17 +77,17 @@
     </ajaxToolkit:Accordion>
     <p class="style1">
         </span></p>
+        <br/>
     <h4 class="style3">
-        Historial procedimientos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    </h4>
-    <p class="style1">
-        <span class="style2">&nbsp;&nbsp;&nbsp;<ajaxToolkit:Accordion ID="Accordion3" runat="server" SelectedIndex="0"
+        Historial procedimientos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="style2">&nbsp;&nbsp;&nbsp;</h4>
+    <ajaxToolkit:Accordion ID="Accordion3" runat="server" SelectedIndex="0"
             HeaderCssClass="accordionHeader" HeaderSelectedCssClass="accordionHeaderSelected"
             ContentCssClass="accordionContent" FadeTransitions="false" FramesPerSecond="40" 
             TransitionDuration="250" AutoSize="None" RequireOpenedPane="false" SuppressHeaderPostbacks="true">
     </ajaxToolkit:Accordion>
 <p class="style1">
         </span></p>
+        <br/>
 <h4 class="style3">
         Antecedentes tóxicos
     </h4>
@@ -98,6 +99,7 @@
     </ajaxToolkit:Accordion>
     <p class="style1">
         </span></p>
+        <br/>
     <h4 class="style3">
         Enfermedades hereditarias</h4>
     <p class="style1">
@@ -107,7 +109,37 @@
             ContentCssClass="accordionContent" FadeTransitions="false" FramesPerSecond="40" 
             TransitionDuration="250" AutoSize="None" RequireOpenedPane="false" SuppressHeaderPostbacks="true">
     </ajaxToolkit:Accordion>
+    <h4>
+    Antecedentes Traumáticos</h4>
     </p>
+    <p>
+    <ajaxToolkit:Accordion ID="Accordion6" runat="server" SelectedIndex="0"
+            HeaderCssClass="accordionHeader" HeaderSelectedCssClass="accordionHeaderSelected"
+            ContentCssClass="accordionContent" FadeTransitions="false" FramesPerSecond="40" 
+            TransitionDuration="250" AutoSize="None" RequireOpenedPane="false" SuppressHeaderPostbacks="true">
+    </ajaxToolkit:Accordion>
+        &nbsp;<h4>
+        Antecedentes Transfusionales</h4>
+    <p>
+        <ajaxToolkit:Accordion ID="Accordion7" runat="server" SelectedIndex="0"
+            HeaderCssClass="accordionHeader" HeaderSelectedCssClass="accordionHeaderSelected"
+            ContentCssClass="accordionContent" FadeTransitions="false" FramesPerSecond="40" 
+            TransitionDuration="250" AutoSize="None" RequireOpenedPane="false" SuppressHeaderPostbacks="true">
+    </ajaxToolkit:Accordion>
+        &nbsp;
+    </p>
+    <h4>
+        Antecedentes Socio-económicos</h4>
+    <p>
+        <ajaxToolkit:Accordion ID="Accordion8" runat="server" SelectedIndex="0"
+            HeaderCssClass="accordionHeader" HeaderSelectedCssClass="accordionHeaderSelected"
+            ContentCssClass="accordionContent" FadeTransitions="false" FramesPerSecond="40" 
+            TransitionDuration="250" AutoSize="None" RequireOpenedPane="false" SuppressHeaderPostbacks="true">
+    </ajaxToolkit:Accordion>
+        &nbsp;
+    </p>
+    <p>
+        &nbsp;</p>
     <span class="style1">
     <br />
     <p>

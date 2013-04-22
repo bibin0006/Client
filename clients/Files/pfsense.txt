@@ -1,0 +1,29 @@
+pfSense 2.0 RC1 Configure Captive Portal for Guests with Local User Management
+http://blog.stefcho.eu/?p=754
+
+pfSense 2.0 RC1 – Customize Captive Portal Pages and implement HTTPS
+http://blog.stefcho.eu/?p=814
+
+pfSense 2.0 RC1 configuration of OpenVPN Server for Road Warrior with TLS and User Authentication
+http://blog.stefcho.eu/?p=492
+
+OpenVPN with LDAP authentication on pfSense 2.0 RC1
+http://blog.stefcho.eu/?p=528
+
+OpenVPN with RADIUS authentication on pfSense 2.0 RC1
+http://blog.stefcho.eu/?p=545
+
+pfSense 2.0 RC1 – Captive Portal with RADIUS Authentication and Vouchers
+http://blog.stefcho.eu/?p=854
+
+Building Site to Site Connection with OpenVPN on pfSense 2.0 RC1 with Shared Key
+http://blog.stefcho.eu/?p=576
+
+Building Site to Site Connection with OpenVPN on pfSense 2.0 RC1 with PKI
+http://blog.stefcho.eu/?p=611
+
+Routing Road Warrior’s clients through a Site-To-Site VPN with pfSense 2.0 RC1 and OpenVPN
+http://blog.stefcho.eu/?p=733
+
+Using your OpenVPN Road Warrior setup as a Secure Relay
+http://blog.stefcho.eu/?p=956

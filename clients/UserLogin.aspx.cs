@@ -37,6 +37,7 @@ namespace clients
                 Session["username"] = persona.Username;
                 Session["auth"] = "True";
                 Session["nombre"] = persona.Nombres;
+                Session["apellido"] = persona.Apellidos;
                 Response.Redirect("/Laboratorio.aspx");
                       
             }

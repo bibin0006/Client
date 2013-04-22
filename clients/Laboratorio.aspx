@@ -7,6 +7,7 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="HeaderContentPlaceHolder" runat="server">
     <asp:Image ID="Image3" runat="server" ImageUrl="~/images/medicslogo.png" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="MenuContentPlaceHolder" runat="server">
         <art:defaultmenu ID="DefaultMenuContent" runat="server" />

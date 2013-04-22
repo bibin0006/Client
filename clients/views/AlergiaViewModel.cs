@@ -6,6 +6,5 @@ namespace mvc4.Models.EntitiesView
 		public string ElemmentoAlergico { get; set; }
 		public string TipoDeAlergia { get; set; }
 		public string Comentarios { get; set; }
-        public DateTime Fecha { get; set; }
 	}
 }

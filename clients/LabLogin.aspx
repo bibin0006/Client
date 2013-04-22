@@ -30,9 +30,7 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="HeaderContentPlaceHolder" runat="server">
     <asp:Image ID="Image3" runat="server" ImageUrl="~/images/medicslogo.png" />
-    <p>
-    </p>
-</asp:Content>
+    </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="MenuContentPlaceHolder" runat="server">
 
 </asp:Content>
