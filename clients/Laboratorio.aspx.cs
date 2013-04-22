@@ -52,14 +52,15 @@ namespace clients
             if( allexams == null ) return;
             var analisis_consultado = allexams.Find(x => x.AnalisisDescripcion == resultado);
 
-            var ext = System.IO.Path.GetExtension(FileUpload1.FileName);
+            var ext = Path.GetExtension(FileUpload1.FileName);
 
-            var local_path = Server.MapPath("~\\Files\\");
-            var file_path = local_path + FileUpload1.PostedFile.FileName;
-            FileUpload1.SaveAs( file_path );
+        //    var local_path = Server.MapPath("~\\Files\\");
+        //    var file_path = local_path + FileUpload1.PostedFile.FileName;
+         //   FileUpload1.SaveAs( file_path );
             //var file_path = Server.MapPath(FileUpload1.FileName);
             var file_name = Session["id"] + "/" + resultado + " " + DateTime.Now.Day + "-" + DateTime.Now.Month + "-" + DateTime.Now.Year + ext;
-            MedicsS3.S3Util.UploadFile(file_path, file_name);
+            MedicsS3.S3Util.UploadFileStream("",file_name,FileUpload1.PostedFile.InputStream );
+        //    MedicsS3.S3Util.UploadFile(file_path, file_name);
 
             
             var url = "/api/Instituciones/PutResultadoAnalisis?"
