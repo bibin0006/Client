@@ -26,9 +26,7 @@ namespace clients {
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-   
+
         
         /// <summary>
         /// Label1 control.
@@ -101,15 +99,6 @@ namespace clients {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::AjaxControlToolkit.Accordion Accordion7;
-        
-        /// <summary>
-        /// Accordion8 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::AjaxControlToolkit.Accordion Accordion8;
         
         /// <summary>
         /// ToolkitScriptManager1 control.

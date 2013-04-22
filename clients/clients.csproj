@@ -69,6 +69,7 @@
     <Content Include="bin\clients.dll" />
     <Content Include="bin\clients.pdb" />
     <Content Include="Client.aspx" />
+    <Content Include="Doctor\DoctorPacientes.aspx" />
     <Content Include="images\Laboratory.jpg" />
     <Content Include="LabDefaultMenu.ascx" />
     <Content Include="DefaultHeader.ascx" />
@@ -177,6 +178,13 @@
     </Compile>
     <Compile Include="Account\Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Doctor\DoctorPacientes.aspx.cs">
+      <DependentUpon>DoctorPacientes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Doctor\DoctorPacientes.aspx.designer.cs">
+      <DependentUpon>DoctorPacientes.aspx</DependentUpon>
     </Compile>
     <Compile Include="LabDefaultMenu.ascx.cs">
       <DependentUpon>LabDefaultMenu.ascx</DependentUpon>

@@ -100,17 +100,17 @@ namespace clients
                 });
             }
 
-            if (historial_medico.Transfusionales != null)
-            {
-                var transfusionales = historial_medico.Transfusionales.Select(VARIABLE => VARIABLE.Fecha.ToShortDateString() + " ----  " + VARIABLE.OrganosDescripcion).ToList();
-                historial_medico.Transfusionales.ForEach(transfusional =>
-                {
-                    var AccordionPane1 = new AccordionPane { ID = Guid.NewGuid().ToString() };
-                    AccordionPane1.HeaderContainer.Controls.Add(new LiteralControl(transfusional.Fecha.ToShortDateString() + " ----  " + transfusional.OrganosDescripcion));
-                    AccordionPane1.ContentContainer.Controls.Add(new LiteralControl(transfusional.Notas));
-                    Accordion7.Panes.Add(AccordionPane1);
-                });
-            }
+            //if (historial_medico.Transfusionales != null)
+            //{
+            //    var transfusionales = historial_medico.Transfusionales.Select(VARIABLE => VARIABLE.Fecha.ToShortDateString() + " ----  " + VARIABLE.OrganosDescripcion).ToList();
+            //    historial_medico.Transfusionales.ForEach(transfusional =>
+            //    {
+            //        var AccordionPane1 = new AccordionPane { ID = Guid.NewGuid().ToString() };
+            //        AccordionPane1.HeaderContainer.Controls.Add(new LiteralControl(transfusional.Fecha.ToShortDateString() + " ----  " + transfusional.OrganosDescripcion));
+            //        AccordionPane1.ContentContainer.Controls.Add(new LiteralControl(transfusional.Notas));
+            //        Accordion7.Panes.Add(AccordionPane1);
+            //    });
+            //}
 
           
                 var socioeconomicos = historial_medico.Socioeconomicos.Select(VARIABLE => VARIABLE.Fecha.ToShortDateString()).ToList();
@@ -119,7 +119,7 @@ namespace clients
                     var AccordionPane1 = new AccordionPane { ID = Guid.NewGuid().ToString() };
                     AccordionPane1.HeaderContainer.Controls.Add(new LiteralControl(socioeconomico.Fecha.ToShortDateString()));
                     AccordionPane1.ContentContainer.Controls.Add(new LiteralControl(socioeconomico.Notas));
-                    Accordion8.Panes.Add(AccordionPane1);
+                    Accordion7.Panes.Add(AccordionPane1);
                 });
          
             
