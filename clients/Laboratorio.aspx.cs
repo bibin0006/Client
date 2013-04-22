@@ -59,7 +59,7 @@ namespace clients
          //   FileUpload1.SaveAs( file_path );
             //var file_path = Server.MapPath(FileUpload1.FileName);
             var file_name = Session["id"] + "/" + resultado + " " + DateTime.Now.Day + "-" + DateTime.Now.Month + "-" + DateTime.Now.Year + ext;
-            MedicsS3.S3Util.UploadFileStream("",file_name,FileUpload1.PostedFile.InputStream );
+            MedicsS3.S3Util.UploadFileStream(file_name,FileUpload1.PostedFile.InputStream );
         //    MedicsS3.S3Util.UploadFile(file_path, file_name);
 
             

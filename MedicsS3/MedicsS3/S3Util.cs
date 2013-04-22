@@ -21,7 +21,7 @@ namespace MedicsS3
             Console.Read();
         }
 
-       public static void UploadFileStream(string filePath, string destinationName, Stream inputStream)
+       public static void UploadFileStream(string destinationName, Stream inputStream)
        {
            var s3Client = AWSClientFactory.CreateAmazonS3Client(RegionEndpoint.USEast1);
            var pictureObjectReq = new PutObjectRequest();
