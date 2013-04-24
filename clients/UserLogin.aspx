@@ -38,6 +38,10 @@
             text-align: center;
             font-size: x-large;
         }
+        .style8
+        {
+            font-size: x-large;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="HeaderContentPlaceHolder" runat="server">
@@ -54,6 +58,7 @@
 </p>
     <p class="style1">
         <div class="style6">
+            <asp:Label ID="Label2" runat="server" CssClass="style8" Text="Label"></asp:Label>
         </div>
     </p>
     <p class="style7">

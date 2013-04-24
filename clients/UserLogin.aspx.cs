@@ -16,6 +16,7 @@ namespace clients
         {
           
             Session["auth"] = "False";
+            Label2.Text=Session["nombreinstitucion"].ToString(  );
         }
 
         protected void btnLogin_Click(object sender, EventArgs e)

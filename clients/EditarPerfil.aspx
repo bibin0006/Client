@@ -9,7 +9,7 @@
         {
             font-family: "Palatino Linotype";
             text-align: center;
-        }
+        }<a href="EditarPerfil.aspx">EditarPerfil.aspx</a>
         .style2
         {
             font-family: "Palatino Linotype";
@@ -17,7 +17,12 @@
         }
         .style3
         {
-            text-align: center;
+            text-align: left;
+        }
+        .style4
+        {
+            font-family: "Palatino Linotype";
+            text-align: left;
         }
     </style>
 </asp:Content>
@@ -39,40 +44,43 @@
     <h2 class="style2">
         &nbsp;&nbsp;
         Editar Perfil</h2>
-    <p class="style3">
-        <span class="style1">Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="email_edit" runat="server" Width="250px" CssClass="style1"></asp:TextBox>
-        </span>
+        <br/>
+    <p class="style4">
+        Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:TextBox ID="email_edit" runat="server" Width="300px" CssClass="style1" 
+            Height="25px"></asp:TextBox>
     </p>
-    <p class="style2">
+    <p class="style3">
         &nbsp;</p>
     <p class="style3">
         <span class="style1">Teléfono: &nbsp;&nbsp;
         </span>
-        <asp:TextBox ID="tel_edit" runat="server" Width="200px" CssClass="style1"></asp:TextBox>
+        <asp:TextBox ID="tel_edit" runat="server" Width="222px" CssClass="style1" 
+            Height="25px"></asp:TextBox>
     </p>
-    <p class="style2">
+    <p class="style3">
         &nbsp;</p>
     <p class="style3">
         <span class="style1">Celular:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </span>
-        <asp:TextBox ID="cel_edit" runat="server" Width="200px" CssClass="style1"></asp:TextBox>
+        <asp:TextBox ID="cel_edit" runat="server" Width="222px" CssClass="style1" 
+            Height="22px"></asp:TextBox>
     </p>
-    <p class="style2">
+    <p class="style3">
         &nbsp;</p>
     <p class="style3">
         <span class="style1">Dirección:&nbsp;&nbsp;
         </span>
-        <asp:TextBox ID="dir_edit" runat="server" Width="250px" CssClass="style1"></asp:TextBox>
+        <asp:TextBox ID="dir_edit" runat="server" Width="300px" CssClass="style1" 
+            Height="25px"></asp:TextBox>
     </p>
     <p class="style2">
         &nbsp;</p>
-<p>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <p class="style2">
     <asp:Button ID="Button1" runat="server" Text="Submit" CausesValidation="False" 
         EnableTheming="False" EnableViewState="False" onclick="Button1_Click1" 
         UseSubmitBehavior="False" Height="42px" Width="114px" CssClass="style1" />
-</p>
+    </p>
 <p class="style1">
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
     &#39;</p>

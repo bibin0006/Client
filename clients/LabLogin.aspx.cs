@@ -35,6 +35,7 @@ namespace clients
             {
                 var persona = jss.Deserialize<InstitucionesViewModel>(result);
                 Session["idi"] = persona.IdInstitucion;
+                Session["nombreinstitucion"] = persona.Nombre;
                 Response.Redirect("/UserLogin.aspx");
 
             }
